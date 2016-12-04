@@ -9,7 +9,7 @@ namespace MyMain
         public static void Main(string[] args)
         {
             // The definition of class Foo, its c'tor, and member FooNum come from MyPocos.
-            // The metho PlusOne is added by MyExtensions.  If that package is not included,
+            // MyExtensions adds method PlusOne.  If that namespace is not included,
             // this code will not compile.
 
             Foo foo42 = new Foo(42);
