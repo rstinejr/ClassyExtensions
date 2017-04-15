@@ -4,7 +4,9 @@ Demonstration of Method Extension of C# Classes
 C# supports "Method extension" -- a way that new functionality can be "lashed on" to an existing class without requiring the original class to be recompiled.  This simple projet illustrates that feature.
 
 
-This project was built and run on a 64-bit Windows 10 Pro, with dotnet version 1.0.0-preview2-003131 and VisualStudo 2015 release 3.
+This project was initially built and run on a 64-bit Windows 10 Pro, with dotnet
+version 1.0.0-preview2-003131 and VisualStudo 2015 release 3. Since then it has
+been updated to dotnet 1.1.0 and VisualStudio 2017.
 
 Retrieve the source from GitHub: `git clone git@github.com:rstinejr/ClassyExtensions.git`
 

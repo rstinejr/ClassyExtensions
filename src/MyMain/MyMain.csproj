@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <AssemblyName>MyMain</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>MyMain</PackageId>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <RuntimeFrameworkVersion>1.0.4</RuntimeFrameworkVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyExtensions\MyExtensions.csproj" />
+    <ProjectReference Include="..\MyFooPoco\MyFooPoco.csproj" />
+  </ItemGroup>
+
+</Project>
